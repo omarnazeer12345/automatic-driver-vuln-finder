@@ -1,8 +1,11 @@
 # Output directories
 reports/
 test_reports/
+local_reports/
 output/
 temp/
+test_dl/
+test_nvidia/
 
 # Downloaded / extracted driver files
 *.sys
@@ -10,15 +13,26 @@ temp/
 *.cab
 *.7z
 *.zip
+*.msi
 
-# Tool directories (optional — include if you want)
-# ghidra_tools/
-# python-embed/
+# Tool directories (large binaries — auto-downloaded by setup)
+ghidra_tools/
+python-embed/
 
 # Python cache
 __pycache__/
 *.pyc
+*.egg-info/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+*.orig
