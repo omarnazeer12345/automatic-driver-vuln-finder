@@ -1,0 +1,7 @@
+{
+  "api_key": "sk-kimi-cII8CMhEDJ6Xi1pOwRywh0uCTjpa3gvuTK0KQzvtROd1WCMmhJg9XC6AKhfVkznf",
+  "base_url": "https://api.kimi.com/coding/v1/messages",
+  "model": "kimi-for-coding",
+  "max_tokens": 8192,
+  "request_timeout": 300
+}
